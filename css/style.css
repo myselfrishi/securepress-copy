@@ -147,9 +147,15 @@ ul {
   margin-left: 6px;
 }
 
-.nav-search  {
+.nav-search {
   display: inline-block;
   position: relative;
+}
+
+.nav-search:hover > .search-form {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .search-icon {
@@ -168,6 +174,31 @@ ul {
 .search-form {
   visibility: hidden;
   position: absolute;
-  top: 30px;
   right: 0;
+  top: 61px;
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: 100% 0 0;
+  transition: all .3s ease-in;
+}
+
+.search-form > form {
+  display: inline-flex;
+  padding: 10px;
+  background-color: #fab909;
+}
+
+.search-input,
+.search-submit {
+  border: none;
+  padding: 10px;
+}
+
+.search-input {
+  line-height: inherit;
+}
+
+.search-submit {
+  background-color: #020e2a;
+  color: #fff;
 }
