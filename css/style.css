@@ -136,6 +136,12 @@ ul {
   font-weight: 600;
 }
 
+.nav-link:hover,
+.nav-link:active {
+  color: #020e2a;
+  text-decoration: none;
+}
+
 .nav-link i {
   font-size: 13px;
   margin-left: 6px;
