@@ -16,6 +16,15 @@ body {
   line-height: 26px;
 }
 
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE STYLE */
+
 .t-head {
   background-color: #020e2a;
 }
@@ -54,10 +63,64 @@ body {
 .t-head__rtspan {
   display: inline-block;
   color: #fab909;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 15px;
 }
 
 .t-head__item-r {
   padding-left: 8px;
+}
+
+/* navbar style */
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 8px;
+}
+
+.nav-sublist {
+  display: none;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 34px 16px;
+  color: #020e2a;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-link i {
+  font-size: 13px;
+  margin-left: 6px;
+}
+
+.nav-search  {
+  display: inline-block;
+  position: relative;
+}
+
+.search-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #fab909;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #020e2a;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.search-form {
+  visibility: hidden;
+  position: absolute;
+  top: 30px;
+  right: 0;
 }
