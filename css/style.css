@@ -202,3 +202,53 @@ ul {
   background-color: #020e2a;
   color: #fff;
 }
+
+.page-head {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url(../images/pg_hd.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+}
+
+.page-h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.page-title {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.page-title li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 0 14px;
+}
+
+.page-title a:hover {
+  text-decoration: none;
+}
+
+.page-title li:first-child a,
+.page-title li:first-child a:hover {
+  color: #fff;
+  position: relative;
+}
+
+.page-title li:first-child a::after {
+  content: "/";
+  position: absolute;
+  right: -20px;
+}
+
+.page-title li:last-child a,
+.page-title li:last-child a:hover {
+  color: #fab909;
+}
