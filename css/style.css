@@ -39,43 +39,43 @@ ul {
   padding: 7px 0;
 }
 
-.t-head__list {
+.list-icon {
   display: inline-block;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.t-head__item {
+.list-icon__item {
   display: inline-block;
   color: #f9f9f9;
 }
 
-.t-head__item-l {
+.list-icon__item-l {
   padding-right: 20px;
 }
 
-.t-head__item-l i {
+.list-icon__item-l i {
   color: #fab909;
   margin-right: 10px;
 }
 
-.t-head__rtspan {
+.list-icon__rtspan {
   display: inline-block;
   color: #fab909;
   font-weight: 600;
   font-size: 15px;
 }
 
-.t-head__item-r {
+.list-icon__item-r {
   padding-left: 8px;
 }
 
-.t-head__item-r i {
+.list-icon__item-r i {
   cursor: pointer;
 }
 
-.t-head__item-r i:hover {
+.list-icon__item-r i:hover {
   color: #fab909;
 }
 
@@ -279,6 +279,25 @@ ul {
 .top-foo-text {
   color: #fff;
   margin-bottom: 22px;
+}
+
+.list-icon__item-f:not(:last-child) {
+  margin-right: 6px;
+}
+
+.list-icon__item-f i {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fab909;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+
+.list-icon__item-f i:hover {
+  color: #fff;
+  background-color: #fab909;
 }
 
 .top-foo-h2 {
