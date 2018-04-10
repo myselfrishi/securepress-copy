@@ -301,7 +301,7 @@ ul {
   top: 25%;
   left: 0;
   opacity: 0;
-  transition: opacity .3s ease-in .1s;
+  transition: opacity .2s ease-in;
 }
 
 .top-footer-links:hover,
@@ -321,4 +321,19 @@ ul {
 
 .media-text {
   color: #fff;
+}
+
+.bottom-footer {
+  padding: 10px 0;
+  background-color: #01081a;
+}
+
+.copy-right p {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.copy-right p span {
+  color: #fab909;
 }
