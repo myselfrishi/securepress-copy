@@ -80,8 +80,33 @@ ul {
 }
 
 /* navbar style */
+/*  style sticky nav-main */
 .nav-main {
-  /* box-shadow: 0 1px 5px rgba(0,0,0,.4); */
+  transition: all .3s ease-in;
+}
+
+.js-sticky-nav {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  animation: fadeInDown .75s ease-in-out;
+}
+
+/* This one is taken by anime.css library*/
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .logo-img {
@@ -99,7 +124,7 @@ ul {
   left: 0;
   background-color: #fab909;
   text-align: left;
-  z-index: 9999;
+  z-index: 1;
   transition: all .3s ease-in;
 }
 
