@@ -34,9 +34,21 @@ ul {
   padding: 6px 0;
 }
 
+@media screen and (max-width: 769px) {
+  .t-head-l {
+    text-align: center;
+  }
+}
+
 .t-head-r {
   text-align: right;
   padding: 7px 0;
+}
+
+@media screen and (max-width: 769px) {
+  .t-head-r {
+    text-align: center;
+  }
 }
 
 .list-icon {
@@ -115,6 +127,16 @@ ul {
   padding-top: 8px;
 }
 
+.nav-container {
+  text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-container {
+    text-align: center;
+  }
+}
+
 .nav-sublist {
   visibility: hidden;
   opacity: 0;
@@ -167,6 +189,12 @@ ul {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link {
+    padding: 30px 10px;
+  }
 }
 
 .nav-link:hover,
