@@ -191,7 +191,7 @@ ul {
   font-weight: 600;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .nav-link {
     padding: 30px 10px;
   }
