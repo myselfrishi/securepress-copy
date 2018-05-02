@@ -264,6 +264,9 @@ ul {
   color: #fff;
 }
 
+/* START SERVICE SECTION  */
+/* START PAGE HEAD  */
+
 .page-head {
   background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
               url(../images/pg_hd.jpg) no-repeat;
@@ -313,9 +316,40 @@ ul {
 .page-title li:last-child a:hover {
   color: #fab909;
 }
+/* END PAGE HEAD  */
 
+/* START SERVICES  */
 
+.services{
 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service{
+  background-color: yellow;
+}
+.service-img{
+  height: 190px;
+  background:url(../images/service-img-1.jpg);
+  background-size: cover;
+}
+.service-details {
+    height: 100%;
+    padding: 20px;
+    transition: all 0.4s ease 0s;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+.service-details h2{
+  font-size: 18px;
+}
+.service-details h2 a{
+  text-decoration: none;
+  color: #020e2a;
+}
+
+/* END SERVICES  */
 
 
 /* FOOTER STYLE */
