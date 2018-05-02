@@ -326,12 +326,10 @@ ul {
   padding-bottom: 100px;
 }
 .service{
-  
+  overflow: hidden;
+  margin-bottom: 35px;
 }
-.service-img{
-  height: 190px;
-  background-size: cover;
-}
+
 #service-img-1{
   background:url(../images/service-img-1.jpg);
   height: 190px;
@@ -362,6 +360,13 @@ ul {
   height: 190px;
   background-size: cover;
 }
+.service-img{
+
+}
+.service:hover .service-img{
+  transform: scale(1.2);
+  transition: all 0.4s ease 0s;
+}
 .service-details {
     height: 100%;
     padding: 20px;
@@ -377,6 +382,21 @@ ul {
 .service-details h2 a{
   text-decoration: none;
   color: #020e2a;
+}
+.service-details::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #fab909;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s ease 0s;
+}
+.service:hover .service-details::before {
+    width: 100%;
+    transition: all 0.4s ease 0s;
 }
 
 /* END SERVICES  */
