@@ -281,37 +281,22 @@ ul {
   margin: 0;
 }
 
-.page-title {
+.page-head .breadcrumb {
+  background: none;
   text-align: center;
-  display: block;
-  margin-top: 10px;
 }
 
-.page-title li {
-  display: inline-block;
-  font-size: 15px;
-  padding: 0 14px;
-}
-
-.page-title a:hover {
-  text-decoration: none;
-}
-
-.page-title li:first-child a,
-.page-title li:first-child a:hover {
-  color: #fff;
-  position: relative;
-}
-
-.page-title li:first-child a::after {
-  content: "/";
-  position: absolute;
-  right: -20px;
-}
-
-.page-title li:last-child a,
-.page-title li:last-child a:hover {
+.page-head .breadcrumb a {
   color: #fab909;
+}
+
+.page-head .breadcrumb li:first-child a {
+  color: #fff;
+}
+
+
+.page-head .breadcrumb a:hover {
+  text-decoration: none;
 }
 
 
