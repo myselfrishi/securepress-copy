@@ -93,9 +93,16 @@ ul {
 
 /* collapsed navbar style */
 .nav-hidden {
+  display: none;
   background-color: #0c1923;
   margin: 0;
 }
+
+@media screen and (max-width: 769px) {
+  .nav-hidden {
+    display: block;
+  }
+} 
 
 .nav-hidden .navbar-toggle {
   margin-right: 0;
@@ -208,6 +215,12 @@ ul {
 
 .nav-container {
   text-align: right;
+}
+
+@media screen and (max-width: 769px) {
+  .nav-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
