@@ -194,6 +194,15 @@ ul {
   animation: fadeInDown .75s ease-in-out;
 }
 
+@media screen and (max-width: 769px) {
+  .js-sticky-nav {
+    background-color: #fff;
+    box-shadow: none;
+    position: static;
+    animation: none;
+  }
+}
+
 /* This one is taken by anime.css library*/
 @keyframes fadeInDown {
   0% {
