@@ -15,6 +15,11 @@ body {
   font-weight: 400;
   line-height: 26px;
 }
+::selection {
+    background: #fab909;
+    text-shadow: none;
+    color: #fff;
+}
 
 ul {
   display: inline-block;
@@ -465,11 +470,11 @@ ul {
   font-weight: bold;
   font-size: 18px;
 }
-.service-details h2 a{
+.service-details  a{
   text-decoration: none;
   color: #020e2a;
 }
-.service-details::before {
+.service .service-details::before {
     position: absolute;
     content: "";
     height: 100%;
@@ -493,6 +498,22 @@ ul {
 .service-2 .service-details{
   background-color: #dddddd;
 }
+.service-2 .service-details::before {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    background: #fab909;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s ease 0s;
+}
+.service-2:hover .service-details::before {
+    height: 100%;
+    transition: all 0.4s ease 0s;
+}
+    
 /* END SERVICE 2  */
 
 
