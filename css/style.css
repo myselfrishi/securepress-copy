@@ -268,7 +268,7 @@ ul {
 
 .page-head {
   background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-              url(../images/pg_hd.jpg) no-repeat;
+  url(../images/pg_hd.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 50px 0;
@@ -417,9 +417,20 @@ ul {
     
 /* END SERVICE 2  */
 
-/* start related-service  */
-
-/* end related-service  */
+/* start related-service 1   */
+.office-security{
+  padding: 100px;
+}
+.office-security img{
+  width: 100%;
+}
+.office-security h2{
+  color: #020e2a;
+}
+.office-security p{
+  font-size: 15px;
+}
+/* end related-service 1  */
 .related-services{
   margin-top: 70px;
   margin-bottom: 70px;
@@ -518,16 +529,3 @@ ul {
 .copy-right p span {
   color: #fab909;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
