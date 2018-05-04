@@ -1,0 +1,219 @@
+/**********************Start the blog bage***************************/
+
+::selection {background: #fab909; text-shadow: none;  color: #fff;}
+
+/** start blog section**/
+
+.blog-classic-sec {  padding-top: 60px;}
+
+.blog-media { margin-bottom: 50px}
+
+.blog-classic-img { position: relative; margin-bottom: 20px}
+
+.blog-classic-overlay ul {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50px);
+    text-align: center
+}
+
+.blog-classic-overlay li {display: inline-block; margin: 0 5px}
+
+.blog-classic-overlay li a {
+    border-radius: 100%;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    transform: scale(0);
+    background: #020e2a;
+}
+
+.single-post:hover .blog-classic-overlay { visibility: visible; opacity: 1;}
+
+.single-post:hover .blog-classic-overlay li a { transform: scale(1.1);}
+
+.blog-classic-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.blog-classic-overlay img { margin: auto}
+
+.blog-classic-overlay::before {
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    opacity: .75;
+    bottom: 0;
+    left: 0;
+}
+
+.single-post:hover .blog-classic-overlay::before {height: 100%}
+
+/*** start the slide bar CATAGORISE***/
+
+.post-list .h2 {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+
+.post-list li a { text-decoration: none;}
+
+.post-list li span { float: right}
+
+.post-list li a,
+.post-list li span { text-decoration: none; font-size: 16px;}
+
+.post-list hr { margin-top: 10px; margin-bottom: 10px; line-height: 10 }
+
+.post-list li a:hover,
+.post-list li span:hover { color: #fab909}
+
+/*** End the slide bar CATAGORISE***/
+
+/*start search blog*/
+
+.search-blog { width: 100% ;  position: relative}
+
+.search-blog input[type="text"] {
+    padding: 15px 35px 15px 15px;
+    border: 1px solid #F0f0f0;
+    border-radius: 50px;
+    height: 30%;
+}
+
+.search-blog input[type="text"]:focus {
+    outline: none;
+    border-color: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.search-blog button {
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    background: transparent;
+    border: 0;
+    color: #e0dddd;
+}
+
+/*End search blog*/
+
+/* start blag post 1*/
+
+.t-h2 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700
+}
+
+h2 {text-decoration: none }
+
+.media-body h2 a:hover {  text-decoration: none;}
+
+.post-media li { display: inline-block; padding-right: 20px}
+
+.media-body li a { text-decoration: none; color: #fab909}
+
+.media-body li span {
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.media-body .leade {
+    font-size: 15px;
+    color: #424242;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 10px
+}
+
+.blog-aa { text-decoration: none; font-size: 18px; font-weight: 600 }
+
+.blog-aa:hover {text-decoration: none}
+
+.underline::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 1.5px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+/* End blag post 1*/
+
+/*** start recent post**/
+
+.recent-post .media-body h3 a {
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out
+}
+
+.recent-post .media-body h3 a:hover,
+.recent-post .media-body ul li:hover a { color: #fab909;}
+
+.recent-post .media-left img {background-color: transparent; border: 1px solid transparent;}
+
+.recent-post .media-body ul li {  display: inline-block; padding-right: 14px;}
+
+.recent-post .media-body ul li a {color: black;  padding-left: 5px}
+
+.recent-post .media-body ul li img { margin-bottom: 8px;}
+
+/*** End recent post**/
+
+/**start keyword**/
+
+.keyword li {padding: 0 25px 30px 10px}
+
+.keyword li a { padding-right: 26px}
+
+/**End keyword**/
+/****************clean the code ******************/
+.single-post:hover .blog-classic-overlay,
+.single-post:hover .blog-classic-overlay li a,
+.single-post:hover .blog-classic-overlay::before,
+.post-list li a,
+.post-list li span ,
+.blog-classic-overlay,
+.blog-classic-overlay::before {
+    transition: all 0.7s ease-in-out;
+}
+
+.post-list .h2, .post-list li a,.post-list li span ,.t-h2 , h2, .media-body h2 a:hover
+.media-body li span , .blog-aa , .blog-aa:hover , .recent-post .media-body h3 a
+{
+    color: #020e2a;
+}
+::selection, .blog-classic-overlay::before, .underline::after
+{background: #fab909}
+
+/*****************************End the blog bage**********************/
