@@ -431,6 +431,13 @@ ul {
   font-size: 15px;
 }
 /* end related-service 1  */
+
+/* Start my company section */
+.my-company{
+  height: 200px;
+}
+
+/* End my company section */
 .related-services{
   padding:80px;
   background: #020e2a;
@@ -446,6 +453,7 @@ ul {
 .related-services-discription h1 span{
   color: #fab909;
 }
+
 
 
 
