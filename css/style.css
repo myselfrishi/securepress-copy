@@ -432,10 +432,21 @@ ul {
 }
 /* end related-service 1  */
 .related-services{
-  margin-top: 70px;
-  margin-bottom: 70px;
+  padding:80px;
   background: #020e2a;
 }
+.related-services-discription{
+  margin-bottom: 50px;
+  color: #fff;
+}
+.related-services-discription h1{
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.related-services-discription h1 span{
+  color: #fab909;
+}
+
 
 
 /* FOOTER STYLE */
