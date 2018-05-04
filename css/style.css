@@ -486,6 +486,14 @@ ul {
 }
 
 /* END SERVICES  */
+/* START SERVICE 2  */
+.service-2{
+  margin-bottom: 30px;
+}
+.service-2 .service-details{
+  background-color: #dddddd;
+}
+/* END SERVICE 2  */
 
 
 /* FOOTER STYLE */
