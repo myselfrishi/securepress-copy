@@ -489,14 +489,22 @@ ul {
     width: 100%;
     transition: all 0.4s ease 0s;
 }
-
 /* END SERVICES  */
 /* START SERVICE 2  */
 .service-2{
   margin-bottom: 30px;
 }
+.service-2 .media-body a{
+  font-weight: bold;
+}
+.service-2-icon img{
+  width:40px;
+  height: auto;
+  margin-right: 25px;
+  margin-top: 20px;
+}
 .service-2 .service-details{
-  background-color: #dddddd;
+   background: #ddd
 }
 .service-2 .service-details::before {
     position: absolute;
@@ -515,6 +523,15 @@ ul {
 }
     
 /* END SERVICE 2  */
+
+/* start related-service  */
+
+/* end related-service  */
+.related-services{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background: #020e2a;
+}
 
 
 /* FOOTER STYLE */
