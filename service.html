@@ -20,13 +20,70 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <nav class="navbar navbar-inverse nav-hidden">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="custom-list nav navbar-nav navbar-right">
+            <li><a href="#">home</a></li>
+
+            <li class="dropdown">
+              <a href="#">project</a>
+              <ul class="custom-list dropdown-menu">
+                <li><a href="#">project 3 column</a></li>
+                <li><a href="#">project 4 column</a></li>
+              </ul>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">service</a>
+              <ul class="custom-list dropdown-menu">
+                <li><a href="#">service 1</a></li>
+                <li><a href="#">service 2</a></li>
+                <li><a href="#">service details 1</a></li>
+                <li><a href="#">service details 2</a></li>
+              </ul>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+</a>
+            </li>
+
+            <li><a href="#">about</a></li>
+            
+            <li><a href="#">employees</a></li>
+            
+            <li class="dropdown">
+              <a href="#">blog</a>
+              <ul class="custom-list dropdown-menu">
+                <li><a href="#">blog classic</a></li>
+                <li><a href="#">blog 3 column</a></li>
+                <li><a href="#">blog column & slidbar</a></li>
+                <li><a href="#">blog details</a></li>
+              </ul>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+</a>
+            </li>
+
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <header>
       <div class="t-head">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-8">
               <div class="t-head-l">
-                <ul class="list-icon list-icon-l">
+                <ul class="custom-list list-icon list-icon-l">
                   <li class="list-icon__item list-icon__item-l">
                     <i class="far fa-comment"></i>
                     <span>24x7 live Support</span>
@@ -45,7 +102,7 @@
             <div class="col-xs-12 col-sm-4">
               <div class="t-head-r">
                 <span class="list-icon__rtspan">Follow Us</span>
-                <ul class="list-icon__list">
+                <ul class="custom-list list-icon__list">
                   <li class="list-icon__item list-icon__item-r"><i class="fab fa-facebook-f"></i></li>
                   <li class="list-icon__item list-icon__item-r"><i class="fab fa-twitter"></i></li>
                   <li class="list-icon__item list-icon__item-r"><i class="fab fa-pinterest"></i></li>
@@ -66,18 +123,18 @@
               </a>
             </div>
             <div class="col-sm-12 col-md-9 nav-container">
-              <ul class="nav-list">
+              <ul class="custom-list nav-list">
                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Project<i class="fas fa-angle-down"></i></a>
-                  <ul class="nav-sublist">
+                  <ul class="custom-list nav-sublist">
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Project 3 Column</a></li>
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Project 4 Column</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Service<i class="fas fa-angle-down"></i></a>
-                  <ul class="nav-sublist">
+                  <ul class="custom-list nav-sublist">
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Service 1</a></li>
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Service 2</a></li>
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Service Details 1</a></li>
@@ -88,9 +145,9 @@
                 </li>
                 <li class="nav-item"><a href="#" class="nav-link">Employees</a></li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Blog<i class="fas fa-angle-down"></i> </a>
-                  <ul class="nav-sublist">
-                    <li class="nav-subitem"><a href="#" class="nav-sublink">Blog Classic</a></li>
+                  <a href="blog.html" class="nav-link">Blog<i class="fas fa-angle-down"></i> </a>
+                  <ul class="custom-list nav-sublist">
+                    <li class="nav-subitem"><a href="blog.html" class="nav-sublink">Blog Classic</a></li>
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Blog 3 Column</a></li>
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Blog Column & Sidebar</a></li>
                     <li class="nav-subitem"><a href="#" class="nav-sublink">Blog Details</a></li>
@@ -114,6 +171,23 @@
         </div>
       </nav>  
     </header>
+    <div class="page-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="page-h1">Change It Depending On The Page</h1>
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Page Name</a></li>
+            </ol>
+            <!-- <ul class="page-title">
+              <li><a href="#">Home</a></li>
+              <li><a href="">Page Name</a></li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- HEAD SECTION -->
     <section class="page-head">
       <div class="container">
@@ -211,7 +285,7 @@
           <div class="col-sm-6 col-md-3">
             <a href="#"><img src="images/logo.png" alt="logo" class="logo-img"></a>
             <p class="top-foo-text">Lorem ipsum dolor sit amet, nulla fermentum, mollis ac lectus nulla, vel neque, risus non nunc duis lectus, ac id porttitor vulputate donec sed.nulla fermentum, mollis ac lectus nulla, vel neque</p>
-            <ul class="list-icon">
+            <ul class="custom-list list-icon">
               <li class="list-icon__item list-icon__item-f"><i class="fab fa-facebook-f"></i></li>
               <li class="list-icon__item list-icon__item-f"><i class="fab fa-twitter"></i></li>
               <li class="list-icon__item list-icon__item-f"><i class="fab fa-pinterest"></i></li>
@@ -221,7 +295,7 @@
           </div>
           <div class="col-sm-6 col-md-3">
             <h2 class="top-foo-h2">Service Links</h2>
-            <ul>
+            <ul class="custom-list">
               <li><a href="#" class="top-footer-links"><i class="fas fa-angle-double-right"></i> Office Security</a></li>
               <li><a href="#" class="top-footer-links"><i class="fas fa-angle-double-right"></i> CCTV Security</a></li>
               <li><a href="#" class="top-footer-links"><i class="fas fa-angle-double-right"></i> House Security</a></li>
@@ -232,7 +306,7 @@
           </div>
           <div class="col-sm-6 col-md-3">
             <h2 class="top-foo-h2">Support Links</h2>
-            <ul>
+            <ul class="custom-list">
               <li><a href="#" class="top-footer-links"><i class="fas fa-angle-double-right"></i> Support Link</a></li>
               <li><a href="#" class="top-footer-links"><i class="fas fa-angle-double-right"></i> Faq & Help Center</a></li>
               <li><a href="#" class="top-footer-links"><i class="fas fa-angle-double-right"></i> About Us</a></li>
