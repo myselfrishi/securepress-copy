@@ -21,7 +21,7 @@ body {
     color: #fff;
 }
 
-ul {
+.custom-list {
   display: inline-block;
   list-style-type: none;
   margin: 0;
