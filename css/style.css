@@ -484,6 +484,7 @@ body {
   background-size: cover;
 }
 .service-img{
+  transition: all 0.7s ease-in-out;
 
 }
 .service:hover .service-img{
