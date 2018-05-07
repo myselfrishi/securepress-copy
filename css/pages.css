@@ -437,3 +437,18 @@ h2,
 }
 
 /************* End BLOG 3 COLumn********************/
+
+/*****Start Edit media Query***/
+
+@media (max-width:767px) {
+    .blog3-column .blog3-data {
+        width: 630px;
+        margin-bottom: 50px
+    }
+    .blog3-column button {
+        top: 100px;
+        margin: 100px auto
+    }
+}
+
+/*****End Edit media Query***/
