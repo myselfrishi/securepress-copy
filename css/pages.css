@@ -442,7 +442,7 @@ h2,
 
 @media (max-width:767px) {
     .blog3-column .blog3-data {
-        width: 630px;
+        width: auto;
         margin-bottom: 50px
     }
     .blog3-column button {
