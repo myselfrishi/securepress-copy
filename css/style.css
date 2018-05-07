@@ -570,11 +570,12 @@ body {
 .office-security p{
   font-size: 15px;
 }
+
 /* end related-service 1  */
 
 /* Start my company section */
 .compamies{
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 .company-logo {
@@ -588,7 +589,12 @@ body {
   height: 200px;
   width: 200px;
 }
+.compamies h2{
+  text-align: center;
+  color: #fab909;
+  padding-bottom: 20px;
 
+}
 
 /* End my company section */
 
