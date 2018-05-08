@@ -692,6 +692,18 @@ body {
 }
 /* End my House Security */
 
+/* start related services 2 section */
+.related-services-2{
+  background: #f9f9f9;
+}
+.related-services-2 h1,p{
+  color: #020e2a
+}
+.related-services-2 .related-services-discription{
+  text-align: center;
+}
+/* End related services 2 section */
+
 .related-services{
   padding:80px;
   background: #020e2a;
