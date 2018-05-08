@@ -564,7 +564,7 @@ body {
 .office-security img{
   width: 100%;
 }
-.office-security h2{
+.office-security,.house-security h2{
   color: #020e2a;
 }
 .office-security p{
@@ -651,6 +651,44 @@ body {
 }
 .share-contact i:hover{
   color: #4d4a4a;
+}
+.house-security h2{
+  padding-top:20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.input-box{
+ 
+}
+.input-box textarea, input{
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 8px;
+}
+.input-box textarea{
+  height: 120px;
+  padding-top: 10px;
+}
+.input-box input{
+  height: 45px;
+}
+.send-btn input{
+  background: #fab909 none repeat scroll 0 0;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 14px 30px;
+  width: 170px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.send-btn input:hover{
+  background: #020e2a;
+  transition: all 0.4s ease-in-out 0s;
+  border-color: #020e2a;
 }
 /* End my House Security */
 
