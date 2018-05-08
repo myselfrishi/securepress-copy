@@ -626,6 +626,32 @@ body {
 .quote p{
   padding-left: 20px;
 }
+.share{
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  margin-top: 30px;
+}
+.share span{
+  background: #fab909;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 30px;
+  display: inline-block;
+}
+.share-contact{
+  float: right;
+}
+.share-contact i{
+  padding-top: 8px;
+  margin: 10px;
+  color: #d0cece;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.share-contact i:hover{
+  color: #4d4a4a;
+}
 /* End my House Security */
 
 .related-services{
