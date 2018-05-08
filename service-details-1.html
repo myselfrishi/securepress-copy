@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- owl carousel -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +14,6 @@
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,7 +34,6 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-      
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="custom-list nav navbar-nav navbar-right">
@@ -45,7 +47,6 @@
               </ul>
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+</a>
             </li>
-
             <li class="dropdown">
               <a href="#">service</a>
               <ul class="custom-list dropdown-menu">
@@ -56,11 +57,8 @@
               </ul>
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+</a>
             </li>
-
             <li><a href="#">about</a></li>
-            
             <li><a href="#">employees</a></li>
-            
             <li class="dropdown">
               <a href="#">blog</a>
               <ul class="custom-list dropdown-menu">
@@ -71,7 +69,6 @@
               </ul>
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+</a>
             </li>
-
             <li><a href="#">contact us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -173,22 +170,13 @@
     </header>
     <div class="page-head">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="page-h1">Change It Depending On The Page</h1>
-            <ol class="breadcrumb">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Page Name</a></li>
-            </ol>
-            <!-- <ul class="page-title">
-              <li><a href="#">Home</a></li>
-              <li><a href="">Page Name</a></li>
-            </ul> -->
-          </div>
-        </div>
+        <h1 class="page-h1">SERVICE DETAILS 1</h1>
+        <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service Details 1</a></li>
+        </ol>
       </div>
     </div>
-    
     <!-- Office Security SECTION -->
     <section class="office-security">
       <div class="container">
@@ -201,16 +189,10 @@
             <p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p>
             <p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>
           </div>
-          
         </div>
-        
       </div>
     </section>
-
-    
-
     <!-- Related Service SECTION -->
-
     <section class="related-services">
       <div class="container">
         <div class="related-services-discription">
@@ -270,12 +252,22 @@
       </div>
     </section>
     <!-- MY COMPANY SECTION -->
-    <section class="my-company">
-      <img src="images/patner3.png">
-    </section>
-
+    <section class="compamies">
+      <div class="container">
+      <h2>You can drag left and right (Touch and Drag Support)</h2>
+      </div>
+      <div class="owl-carousel">
+        <div class="company-logo" id="company-1"></div>
+        <div class="company-logo" id="company-2"></div>
+        <div class="company-logo" id="company-3"></div>
+        <div class="company-logo" id="company-4"></div>
+        <div class="company-logo" id="company-5"></div>
+        <div class="company-logo" id="company-6"></div>
+        <div class="company-logo" id="company-7"></div>
+        <div class="company-logo" id="company-8"></div>
+      </div>
+    </section>  
     <!-- FOOTER SECTION -->
-
     <footer class="top-footer">
       <div class="container">
         <div class="row">
@@ -322,7 +314,6 @@
                 <span class="media-text">71 Pilgrim Avenue Chevy Chase, MD 20815</span>
               </div>
             </div>
-
             <div class="media">
               <div class="media-left">
                 <i class="far fa-envelope"></i>
@@ -331,7 +322,6 @@
                 <span class="media-text">yourmail@gmail.com, info@securepress.com</span>
               </div>
             </div>
-
             <div class="media">
               <div class="media-left">
                 <i class="fas fa-phone"></i>
@@ -355,12 +345,18 @@
         </div>
       </div>
     </footer>
-
     <!-- custom script -->
     <script src="js/script.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+    </script>
   </body>
 </html>
