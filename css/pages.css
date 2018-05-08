@@ -438,6 +438,60 @@ h2,
 
 /************* End BLOG 3 COLumn********************/
 
+/*****************Start blog details****************/
+
+/**START COmment**/
+
+.comment {
+    margin-top: 40px;
+    margin-bottom: -20px
+}
+
+.comment-h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #020e2a;
+    padding-left: 2px
+}
+
+.comment-h3-share {
+    font-family: Montserrat, sans-serif;
+    color: #020e2a;
+    font-size: 22px;
+
+}
+
+.comment p {
+    font-size: 15px;
+    color: #424242;
+    padding: 10px 15px 45px 10px
+}
+
+.comment h3 span a {
+    font-family: "open sans";
+    color: #9a9999;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    font-weight: 600;
+    float: right;
+    font-size: 15px
+}
+
+.comment h3 span a:hover {
+    color: #fab909
+}
+
+.comment h4 {
+    font-size: 14px;
+    color: #9a9999;
+    font-weight: 600;
+
+}
+
+/**End COmment**/
+
+/*****************End blog details*************/
+
 /*****Start Edit media Query***/
 
 @media (max-width:767px) {
