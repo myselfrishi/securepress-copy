@@ -578,24 +578,51 @@ body {
   padding-top: 60px;
   padding-bottom: 100px;
 }
-.company-logo {
-  margin: 15px;
-  border: solid 1px #fab909;
-  border-radius: 2px;
-  
-  overflow: hidden;
-}
-.company-logo img{
-  height: 200px;
-  width: 200px;
-}
 .compamies h2{
   text-align: center;
   color: #fab909;
   padding-bottom: 20px;
-
+}
+.company-logo {
+  margin: 15px;
+  border: solid 1px #fab909;
+  border-radius: 2px;
+  height: 200px;
+  width: 80%;
 }
 
+#company-1{
+  background: url(../images/company-1.jpg);
+  background-size: cover;
+}
+#company-2{
+  background: url(../images/company-2.jpg);
+  background-size: cover;
+}
+#company-3{
+  background: url(../images/company-3.jpg);
+  background-size: cover;
+}
+#company-4{
+  background: url(../images/company-4.jpg);
+  background-size: cover;
+}
+#company-5{
+  background: url(../images/company-5.jpg);
+  background-size: cover;
+}
+#company-6{
+  background: url(../images/company-6.jpg);
+  background-size: cover;
+}
+#company-7{
+  background: url(../images/company-7.jpg);
+  background-size: cover;
+}
+#company-8{
+  background: url(../images/company-8.jpg);
+  background-size: cover;
+}
 /* End my company section */
 
 
@@ -695,6 +722,8 @@ body {
 /* start related services 2 section */
 .related-services-2{
   background: #f9f9f9;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .related-services-2 h1,p{
   color: #020e2a
