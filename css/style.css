@@ -585,10 +585,14 @@ body {
 }
 .company-logo {
   margin: 15px;
-  border: solid 1px #fab909;
+  border: solid 1px #fff;
   border-radius: 2px;
   height: 200px;
   width: 80%;
+  transition: .4s all;
+}
+.company-logo:hover{
+  border: solid 1px #fab909;
 }
 
 #company-1{
