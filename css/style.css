@@ -596,6 +596,252 @@ body {
 
 
 
+
+
+/* START PROJECT SECTION */
+section {
+
+  padding: 100px 0px 70px 0;
+}
+
+div.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.6s ease-in;
+  transition: -webkit-transform 0.6s ease-in;
+  -o-transition: transform 0.6s ease-in;
+  transition: transform 0.6s ease-in;
+  transition: transform 0.6s ease-in, -webkit-transform 0.6s ease-in;
+}
+
+/*zooooooooooooooooooom effecxt */
+
+.image {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+div.img-container:hover img {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25)
+}
+
+
+
+div.img-container {
+  position: relative;
+}
+
+/*                                  second part   hoverlay            */
+
+.img-hoverlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(250, 185, 9, .75);
+  height: calc(100% - 30px);
+  width: 0;
+  margin: 0 auto;
+  -webkit-transition: width 0.6s ease-in;
+  -o-transition: width 0.6s ease-in;
+  transition: width 0.6s ease-in;
+}
+
+div.img-container:hover div.img-hoverlay {
+  width: calc(100% - 30px);
+
+}
+
+/*third part icons */
+
+div.icons-container {
+  position: absolute;
+  width: calc(100% - 30px);
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0 auto;
+}
+
+a.circle,
+div.circle {
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  background-color: #000;
+  border: 1px solid radius;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fab909;
+  cursor: pointer;
+  -webkit-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+div.img-container:hover .circle {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/*                  slider          */
+
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(11, 11, 11, 0.8);
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+.image-carousel {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  --top: 50%;
+  left: 0;
+  --transform: translateY(-50%);
+  padding: 40px 0;
+
+}
+
+.image-carousel .inner {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 480px;
+  max-width: 720px;
+  margin: 10vh auto;
+  --overflow: hidden;
+  position: relative;
+  top: 40%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.image-carousel .inner .close {
+  color: #fff;
+  position: absolute;
+  opacity: 0.3;
+  top: -24px;
+  right: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.image-carousel .inner .close:hover {
+  opacity: 1;
+
+}
+
+.image-carousel .inner img {
+  width: 100%;
+  cursor: pointer;
+
+
+}
+
+.image-carousel .number {
+  color: #fff;
+  right: 0;
+  position: absolute;
+  cursor: default;
+}
+
+.image-carousel div.next::after,
+.image-carousel div.previous::after {
+  position: absolute;
+  content: "";
+  font-size: 20px;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: rgba(44, 44, 44, 0.0);
+  color: #fff;
+  width: 0px;
+  height: 0px;
+  line-height: 50px;
+  text-align: right;
+  padding-right: 10px;
+  border-left: 20px solid #fff;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+
+  opacity: 0.3;
+}
+
+.image-carousel div.previous::after {
+  left: 0;
+  content: "";
+  border-left: none;
+  border-right: 20px solid #fff;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.image-carousel div.next:hover::after,
+.image-carousel div.previous:hover::after {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.deactivate {
+  display: none;
+}
+
+/*detail style     */
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #020e2a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.detail {
+  font-size: 15px;
+  color: #424242;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 26px;
+  margin: 0 0 22px;
+}
+.detail-section img {
+  margin-bottom: 30px;
+}
+/* END PROJECT SECTION */
+
+
+
+
+
+
 /* FOOTER STYLE */
 .top-footer {
   padding-top: 100px;
