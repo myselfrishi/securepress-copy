@@ -845,11 +845,6 @@ p {
   padding: 100px 0px 70px 0;
 }
 
-/* div.container {
-  max-width: 1170px;
-  margin: 0 auto;
-} */
-
 .project-section img,
 .detail-section img {
   width: 100%;
@@ -883,7 +878,7 @@ div.img-container {
   position: relative;
 }
 
-/*                                  second part   hoverlay            */
+/*                 second part   hoverlay                 */
 
 .img-hoverlay {
   position: absolute;
@@ -942,7 +937,7 @@ div.img-container:hover .circle {
   transform: scale(1);
 }
 
-/*                  slider          */
+/*                 slider                 */
 
 .back {
   position: fixed;
@@ -1057,7 +1052,7 @@ div.img-container:hover .circle {
   display: none;
 }
 
-/*detail style     */
+/*                 detail style                 */
 
 h2 {
   margin: 0 0 20px;
