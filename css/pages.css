@@ -304,6 +304,10 @@ h2,
 
 /************* START BLOG 3 COLumn********************/
 
+.blog3-column {
+    padding-top: 60px
+}
+
 .blog3-column h2 {
     font-family: Montserrat, sans-serif;
     font-size: 20px;
@@ -501,7 +505,7 @@ h2,
     }
     .blog3-column button {
         top: 100px;
-        margin: 100px auto
+        margin: 50px auto
     }
 }
 
