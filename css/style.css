@@ -1225,9 +1225,9 @@ div.img-container:hover .circle {
 }
 
 
-.carousel-caption {
+.secri-head .carousel-caption {
     top: 10%;
-    left: 0
+    left: 7%
 }
 
 .slider-text {
@@ -1236,18 +1236,19 @@ div.img-container:hover .circle {
     position: relative;
     z-index: 999;
     overflow: hidden;
-    padding: 20px 10px
+    /* padding: 20px 10px*/
 }
 
 .slider-text h2 {
+    width: 600px;
     color: #fff;
     font-size: 42px;
     text-transform: uppercase;
     transition: all 0.2s ease 0s;
     font-weight: bold;
     line-height: 60px;
-    padding-left: 40px;
-    padding-right: 40px
+    /*padding-left: 40px;
+    padding-right: 40px*/
 }
 
 .slider-text h2 span {
@@ -1258,12 +1259,13 @@ div.img-container:hover .circle {
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 20px;
-    padding-left: 40px
+    /*padding-right: 20px;
+    padding-left: 40px*/
+    width: 650px
 }
 
 .slider-button {
-    margin-left: 40px
+    margin-left:
 }
 
 .slider-button .btn-default {
@@ -1427,8 +1429,8 @@ div.img-container:hover .circle {
     background: #020e2a;
     width: 100%;
     height: auto;
-    padding-top: 80px;
-    padding-bottom: 80px
+    padding-top: 40px;
+    padding-bottom: 40px
 }
 
 .offer-sec h3 {
@@ -1449,7 +1451,8 @@ div.img-container:hover .circle {
 
 .offer-sec .off-p {
     color: #fff;
-    padding-top: 20px
+    padding-top: 20px;
+    padding-bottom: 30px
 }
 
 .offer-sec .services {
@@ -2006,3 +2009,83 @@ div.img-container:hover .circle {
 /********* End Resent-N*********/
 
 /****************************End index page**********************/
+
+/**************** start media query**********/
+
+@media only screen and (max-width: 768px) {
+    /***slider***/
+    .carousel .item {
+        height: 700px
+    }
+    .slider-text h2 {
+        width: 350px;
+        font-size: 30px
+    }
+    .slider-text p {
+        width: 350px;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px
+    }
+    /*** about us section**/
+    .about-img:before {
+        background: none
+    }
+    .about-img {
+        margin-top: 15px
+    }
+
+    /*** why chosen**/
+    .why-choosee {
+        background-image: none;
+        height: 1300px
+    }
+    .choose-sec-2 {
+        height: 1300px
+    }
+    /*****testimonial sec******/
+    .testimonials-sec {
+        height: 900px
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .logo-img {
+        max-width: 75%
+    }
+    /***slider***/
+    .carousel .item {
+        height: 750px
+    }
+    .slider-text h2 {
+        width: 280px;
+        font-size: 25px;
+        padding-right: 10px;
+        padding-left:
+    }
+    .slider-text p {
+        width: 250px;
+        font-size: 13px;
+        padding-right: ;
+        padding-left:
+    }
+    .slider-button .btn-primary,
+    .slider-button .btn-default {
+        padding: 15px 10px;
+    }
+    /*** about us section**/
+    .about-img:before {
+        background: none
+    }
+    .about-img {
+        margin-top: 15px
+    }
+    .client-tesi img {
+        margin-top: 10px
+    }
+    .contact-sec-info-1 {
+        padding: 50px
+    }
+}
+
+/**************** End media query**********/
